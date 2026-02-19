@@ -1,2 +1,8 @@
 # algoritmos-cev
-Projetos e exercícios de algoritmos do Curso em Vídeo, organizados para estudo e portfólio.
+# 🧮 Fórmula de Bhaskara
+
+Este exercício implementa a fórmula de Bhaskara para resolver equações do segundo grau no formato:
+
+```blockmath
+ax^2 + bx + c = 0
+
