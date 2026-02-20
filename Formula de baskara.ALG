@@ -1,0 +1,23 @@
+algoritmo "semnome"
+var
+a, b, c, x1, x2, xv, yv, delta: real
+inicio
+  escreva ("escreva o a:")
+  leia (a)
+  escreva ("escreva o b:")
+  leia (b)
+  escreva ("escreva o c:")
+  leia (c)
+  delta <- (b^2) - (4*a*c)
+  escreval ("o delta dessa funçao é :" , delta )
+  x1 <- (-b + raizq(delta)) / (2*a)
+  escreval ("o x1 dessa funçao é :" , x1)
+  x2 <- (-b - raizq(delta)) / (2*a)
+  escreval ("o x2 dessa funçao é:" , x2)
+  xv <- -b / (2*a)
+  escreval ("o xv dessa funçao é:" , xv)
+  yv <- -delta / (4*a)
+  escreval ("o yv dessa funçao é:" , yv)
+  escreva (" PROD BY MARTO" )
+  
+fimalgoritmo
